@@ -8,7 +8,7 @@ const ListaDocentes = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https:/alex.com.mx/apiBD.php');
+                const response = await fetch('https://alex.starcode.com.mx/apiBD.php');
                 const data = await response.json();
                 setDocentes(data);
             } catch (error) {
