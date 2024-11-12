@@ -50,10 +50,10 @@ const ListaDocentes = () => {
                                     <strong>Clave ISSEMYN:</strong> {docente.issemyn}
                                 </p>
                                 <p className="card-text" style={{ fontStyle: 'italic', fontWeight: 'bold' }}>
-                                    <strong>Sexo:</strong> {docente.Sexo}
+                                    <strong>Sexo:</strong> {docente.sexo}
                                 </p>
                                 <p className="card-text" style={{ fontStyle: 'italic', fontWeight: 'bold' }}>
-                                    <strong>Teléfono:</strong> {docente.Telefono}
+                                    <strong>Teléfono:</strong> {docente.telefono}
                                 </p>
                                 <p className="card-text" style={{ fontStyle: 'italic', fontWeight: 'bold' }}>
                                     <strong>Especialidad:</strong> {docente.Especialidad}
