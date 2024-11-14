@@ -55,9 +55,7 @@ const ListaDocentes = () => {
                                 <p className="card-text" style={{ fontStyle: 'italic', fontWeight: 'bold' }}>
                                     <strong>Teléfono:</strong> {docente.telefono}
                                 </p>
-                                <p className="card-text" style={{ fontStyle: 'italic', fontWeight: 'bold' }}>
-                                    <strong>Especialidad:</strong> {docente.Especialidad}
-                                </p>
+                               
                             </div>
                         </div>
                     </div>
