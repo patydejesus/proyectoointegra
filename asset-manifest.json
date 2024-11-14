@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/patydejesus/proyectoointegra.git/static/css/main.98c5be4c.css",
+    "main.js": "/patydejesus/proyectoointegra.git/static/js/main.cdd17a70.js",
+    "static/js/453.92e8b0fd.chunk.js": "/patydejesus/proyectoointegra.git/static/js/453.92e8b0fd.chunk.js",
+    "index.html": "/patydejesus/proyectoointegra.git/index.html",
+    "main.98c5be4c.css.map": "/patydejesus/proyectoointegra.git/static/css/main.98c5be4c.css.map",
+    "main.cdd17a70.js.map": "/patydejesus/proyectoointegra.git/static/js/main.cdd17a70.js.map",
+    "453.92e8b0fd.chunk.js.map": "/patydejesus/proyectoointegra.git/static/js/453.92e8b0fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98c5be4c.css",
+    "static/js/main.cdd17a70.js"
+  ]
+}
