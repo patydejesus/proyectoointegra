@@ -1,18 +1,23 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import ListaDocentes from './components/ListaDocentes'; // Asegúrate de tener este archivo en `src/components`
-import ListaAlumnos from './components/ListaAlumnos';   // Asegúrate de tener este archivo en `src/components`
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Información de Docentes y Alumnos</h1>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
-      <main>
-        <ListaDocentes />    {/* Componente para mostrar la lista de docentes */}
-        <ListaAlumnos />     {/* Componente para mostrar la lista de alumnos con gráficas */}
-      </main>
     </div>
   );
 }

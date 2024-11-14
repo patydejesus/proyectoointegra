@@ -5,11 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ListaDocentes from './Trabajadores/Docentes';
+import Calificaciones from './Trabajadores/Calificaciones';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ListaDocentes/>
+    <ListaDocentes />
+    <Calificaciones />
+    
   
   </React.StrictMode>
 );
